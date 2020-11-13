@@ -45,7 +45,7 @@ class Board extends React.Component {
         </div>
       );
     });
-    return <div>{row}</div>;
+    return <div className="saver">{row}</div>;
   }
 }
 
